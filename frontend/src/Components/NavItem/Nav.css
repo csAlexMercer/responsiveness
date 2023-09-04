@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Pacifico&display=swap');
+
+.navbar-brand{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Dancing Script;
+    font-weight: 500;
+    font-size: xx-large;
+    color: #8f452f;
+    text-decoration: none;
+    text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3)
+}
+.ms-auto{
+    margin-right: 10%;
+}

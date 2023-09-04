@@ -1,0 +1,62 @@
+.contain-intro{
+    height:600px;
+    margin-top: 20px;
+    background-image: url('../../assets/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.heading-intro{
+    display: block;
+    align-items: center;
+    margin-left: 5%;
+    flex-direction: column;
+}
+
+.title-intro{
+color: #d9ab97;
+margin: 10px;
+}
+
+.intro{
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+font-family: monospace;
+text-transform: uppercase;
+    width: 25rem;
+}
+
+.contain-intro a{
+    text-decoration: none;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-self: center;     /* Center vertically */
+    margin-top: 100px;
+  }
+  
+  .btn {
+    padding: 10px 20px;      /* Adjust padding as needed */
+    color: #fff;              /* Text color */
+    border-radius: 10px;       /* Round edges */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    
+  }
+  
+  .btn:hover {
+    background-color: #d9a086; /* Change color on hover */
+  }
+  
